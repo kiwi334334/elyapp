@@ -17,6 +17,7 @@ app.listen(3000)
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
 );
+
 let BaseHTML = ({ children }: elements.Children) => `
   <!DOCTYPE html >
     <html lang="en">
